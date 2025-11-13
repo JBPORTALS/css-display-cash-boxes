@@ -3,29 +3,20 @@ import "./App.css";
 export default function App() {
   return (
     <div className="store-room">
-      <CashBoxContainer>
+      <Racker>
         <CashBox />
         <CashBox />
         <CashBox />
-      </CashBoxContainer>
-
-      <CashBoxContainer>
         <CashBox />
         <CashBox />
         <CashBox />
-      </CashBoxContainer>
-
-      <CashBoxContainer>
         <CashBox />
         <CashBox />
         <CashBox />
-      </CashBoxContainer>
-
-      <CashBoxContainer>
         <CashBox />
         <CashBox />
         <CashBox />
-      </CashBoxContainer>
+      </Racker>
     </div>
   );
 }
@@ -40,4 +31,8 @@ function CashBox() {
 
 function CashBoxContainer({ children }) {
   return <div className="cash-box-container">{children}</div>;
+}
+
+function Racker({ children }) {
+  return <div className="racker">{children}</div>;
 }
