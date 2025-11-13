@@ -37,12 +37,16 @@
   box-shadow: inset 30px -30px rgb(70, 9, 9), inset -30px 30px rgb(70, 9, 9);
 
   display: flex;
+  gap: 10px;
 
   /*
-  Q1: How we distribute space evenly between the boxes, if the boxes in the container are less,
+
+  Q2: How to maintain particular amount of gap between each box once 
+
+  Q2: How we distribute space evenly between the boxes, if the boxes in the container are less,
   so that won't stick to the box edges to left and right
   
-  Q2: How to maintain particular amount of gap between each box once 
+  
 
   Q3: How we can make the boxes not stick to top and bottom edge of the container?
   */
