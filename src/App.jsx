@@ -3,17 +3,18 @@ import "./App.css";
 export default function App() {
   return (
     <div>
-      <div className="cash-box">
-        <span>₹</span>
-      </div>
+      <CashBox />
+      <CashBox />
+      <CashBox />
+      <CashBox />
+    </div>
+  );
+}
 
-      {/** Here comes more cash boxes to be maintained */}
-      <div className="cash-box">
-        <span>₹</span>
-      </div>
-      <div className="cash-box">
-        <span>₹</span>
-      </div>
+function CashBox() {
+  return (
+    <div className="cash-box">
+      <span>₹</span>
     </div>
   );
 }
