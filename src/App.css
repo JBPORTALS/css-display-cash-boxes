@@ -1,11 +1,15 @@
 .cash-box {
-  display: inline-block;
   background: silver;
   border: 10px solid gray;
   border-radius: 2px;
   padding: 60px 100px;
+  height: 100px;
+  width: 100px;
 
-  /* Shadow for element (x, y, blur, color)*/
+  /* top and bottom | left and right */
+  margin: 10px 0px;
+
+  /* x | y | blur | color */
   box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.777);
 }
 

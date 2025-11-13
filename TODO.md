@@ -1,0 +1,4 @@
+<CashBox />
+<CashBox />
+<CashBox />
+<CashBox />
