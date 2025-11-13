@@ -1,8 +1,11 @@
 .cash-box {
+  display: inline;
   background: silver;
   border: 10px solid gray;
   border-radius: 2px;
-  padding: 60px 100px;
+  padding: 100px 100px;
+
+  /* Inline width & height won't work */
   height: 100px;
   width: 100px;
 
@@ -16,4 +19,10 @@
 .cash-box span {
   font-size: 100px;
   color: gainsboro;
+}
+
+.store-room {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
 }
